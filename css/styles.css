@@ -3,6 +3,7 @@ body, section {
   margin: 0;
   font-family: Poppins;
   overflow-x: hidden;
+  position: relative;
 }
 
 header .container {
@@ -38,6 +39,7 @@ header .container {
   align-self: flex-start;
   position: absolute;
   right: 0;
+  top: 0;
   background-color: #3D445C;
   z-index: 1;
 }
@@ -1588,31 +1590,13 @@ footer .bottom-links-container .bottom-links .rights a {
     width: 950px;
   }
 
-  .menu-icon {
-    right: -80px;
-  }
-
-  .menu-container {
-    position: relative;
-    right: -75px;
-  }
-
   footer .container {
     width: 800px;
-  }
-}
-@media (max-device-width: 815px) {
-  .menu-container {
-    right: -29px;
   }
 }
 @media (max-device-width: 760px) {
   body {
     width: 950px;
-  }
-
-  .menu-icon {
-    right: -190px;
   }
 
   footer .container {
@@ -1624,10 +1608,6 @@ footer .bottom-links-container .bottom-links .rights a {
     width: 950px;
   }
 
-  .menu-icon {
-    right: -250px;
-  }
-
   footer .container {
     width: 800px;
   }
@@ -1637,23 +1617,11 @@ footer .bottom-links-container .bottom-links .rights a {
     width: 870px;
   }
 
-  .menu-icon {
-    right: -270px;
-  }
-
-  .menu-container {
-    right: 12px;
-  }
-
   footer .container {
     width: 800px;
   }
 }
-@media (max-width: 540px) {
-  .menu-icon {
-    right: -300px;
-  }
-
+@media (max-device-width: 540px) {
   footer .container {
     width: 800px;
   }
@@ -1663,14 +1631,6 @@ footer .bottom-links-container .bottom-links .rights a {
     width: 775px;
   }
 
-  .menu-icon {
-    right: -230px;
-  }
-
-  .menu-container {
-    right: 65px;
-    width: 630px;
-  }
   .menu-container .menu-links a p {
     font-size: 30px;
   }
@@ -1841,7 +1801,16 @@ footer .bottom-links-container .bottom-links .rights a {
     height: 200px;
   }
 
+  .about .chapters ul li .content .round-button:hover {
+    width: 200px;
+    height: 200px;
+  }
+
   .about .chapters ul li .content .round-button i {
+    font-size: 75px;
+  }
+
+  .about .chapters ul li .content .round-button:hover i {
     font-size: 75px;
   }
 
@@ -2004,16 +1973,7 @@ footer .bottom-links-container .bottom-links .rights a {
     margin-bottom: 15px;
   }
 }
-@media (max-device-width: 375px) {
-  .menu-icon {
-    right: -200px;
-  }
-}
-@media (max-width: 320px) {
-  .menu-icon {
-    right: -380px;
-  }
-
+@media (max-device-width: 320px) {
   .intro .container .caption {
     font-size: 70px;
   }
@@ -2097,13 +2057,6 @@ footer .bottom-links-container .bottom-links .rights a {
   .about .chapters ul li .content {
     height: 360px;
     border-radius: 70px 70px 0 0;
-  }
-  .about .chapters ul li .content .round-button {
-    width: 150px;
-    height: 150px;
-  }
-  .about .chapters ul li .content .round-button i {
-    font-size: 30px;
   }
   .about .chapters ul li .chapter-header {
     font-size: 45px;

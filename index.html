@@ -96,48 +96,48 @@
                     </div>
                 </div>
                 <div id = "form" class = "form" data-aos="fade-down" data-aos-duration="1000">
-                    <div class = "form-caption">
-                        <h3>Receive for FREE,</h3>
-                        <p>3 Crypto Trading Videos & eBook</p>
-                        <p class = "form-caption-last-line"><span class = "bold-text">7 Free Course Giveaways Left.</span> Claim Yours Now!</p>
-                    </div>
-                    <form>
-                        <input type = "email" name = "email" placeholder="Email">
-                        <input type = "text" name = "name" placeholder="Name">
-                        <div class = "checkboxes">
-                            <div class = "custom-checkbox">
-                                <label class = "switch">
-                                    <input type = "checkbox">
-                                    <span class="slider round"></span>
-                                </label>
-                                <p>
-                                    By checking this box you agree to subscribe to Traders
-                                    Expert & its affiliates brand assets newsletter 
-                                </p>
-                            </div>
-                            <div class = "custom-checkbox">
-                                <label class = "switch">
-                                    <input type = "checkbox">
-                                    <span class="slider round"></span>
-                                </label>
-                                <p>
-                                    By checking this box you agree to our  <a href="https://traders.expert/terms-conditions/" target="_blank">Terms</a>,
-                                    <a href="https://traders.expert/privacy-policy/" target="_blank">Privacy</a> &amp; 
-                                    <a href="https://traders.expert/spam-disclaimer/" target="_blank">Spam Disclaimer</a>
-                                </p>
-                            </div>
-                            <div class = "custom-checkbox">
-                                <label class = "switch">
-                                    <input type = "checkbox">
-                                    <span class="slider round"></span>
-                                </label>
-                                <p>
-                                    By checking this box you agree to our <a href = "https://traders.expert/privacy-policy/" target="_blank">GDPR</a> terms
-                                </p>
-                            </div>
+                        <div class = "form-caption">
+                            <h3>Receive for FREE,</h3>
+                            <p>3 Crypto Trading Videos & eBook</p>
+                            <p class = "form-caption-last-line"><span class = "bold-text">7 Free Course Giveaways Left.</span> Claim Yours Now!</p>
                         </div>
-                        <input type = "submit" value = "Join Community">
-                    </form>
+                        <form>
+                            <input type = "email" name = "email" placeholder="Email">
+                            <input type = "text" name = "name" placeholder="Name">
+                            <div class = "checkboxes">
+                                <div class = "custom-checkbox">
+                                    <label class = "switch">
+                                        <input type = "checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <p>
+                                        By checking this box you agree to subscribe to Traders
+                                        Expert & its affiliates brand assets newsletter 
+                                    </p>
+                                </div>
+                                <div class = "custom-checkbox">
+                                    <label class = "switch">
+                                        <input type = "checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <p>
+                                        By checking this box you agree to our  <a href="https://traders.expert/terms-conditions/" target="_blank">Terms</a>,
+                                        <a href="https://traders.expert/privacy-policy/" target="_blank">Privacy</a> &amp; 
+                                        <a href="https://traders.expert/spam-disclaimer/" target="_blank">Spam Disclaimer</a>
+                                    </p>
+                                </div>
+                                <div class = "custom-checkbox">
+                                    <label class = "switch">
+                                        <input type = "checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <p>
+                                        By checking this box you agree to our <a href = "https://traders.expert/privacy-policy/" target="_blank">GDPR</a> terms
+                                    </p>
+                                </div>
+                            </div>
+                            <input type = "submit" value = "Join Community">
+                        </form>
                 </div>
             </div>
         </div>
@@ -182,7 +182,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href = "#" id = "register-link" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">Get Full FREE Access </a>
+                <a id = "register-link" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">Get Full FREE Access </a>
         </div>
     </section>
 
@@ -428,14 +428,14 @@
     <script>
         $("#register-link").click(function() { 
             $('html, body').animate({
-                scrollTop: $("#form").offset().top
+                scrollTop: $("#form").offset().top-200
             }, 1000); 
         });
     </script>
     <script>
         $(".play-scroll").click(function() { 
             $('html, body').animate({
-                scrollTop: $("#form").offset().top
+                scrollTop: $("#form").offset().top-200
             }, 1000); 
         });
     </script>
