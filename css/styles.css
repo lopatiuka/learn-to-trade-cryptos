@@ -1631,20 +1631,6 @@ footer .bottom-links-container .bottom-links .rights a {
     width: 775px;
   }
 
-  .menu-container .menu-links a p {
-    font-size: 30px;
-  }
-  .menu-container .menu-links details summary {
-    font-size: 30px;
-  }
-  .menu-container .menu-links details a {
-    font-size: 30px;
-    line-height: 60px;
-  }
-  .menu-container .menu-links details a:last-child {
-    line-height: 40px;
-  }
-
   header .container {
     width: 739px;
   }

@@ -31,52 +31,6 @@
     <header>
         <div class = "container">
             <a href = "#"><img src = "images/logo header.png"></a>
-            <nav class = "navigation">
-                <a href = "https://traders.expert/" target="_blank"><p>Home</p><div class = "on-hover"></div></a>
-                <a href = "https://traders.expert/about-us/" target="_blank"><p>About Us</p><div class = "on-hover"></div></a>
-                <div class = "select"><p>Broker <i class = "header-arrow"></i></p><div class = "on-hover"></div> 
-                    <div class = "hidden-links broker-links" data-aos="fade-up">
-                        <a href = "https://traders.expert/broker-listing/" target="_blank">Broker Listing</a>
-                        <a href = "https://traders.expert/brokers-review/" target="_blank">Brokers Review</a>
-                        <a href = "https://traders.expert/brokers-review/broker-review/" target="_blank">Broker Review Directory</a>
-                    </div> 
-                </div>
-                <a href = "https://traders.expert/education-page/" target="_blank"><p>Education</p><div class = "on-hover"></div></a>
-                <div class = "select events"><a href = "https://traders.expert/events/" target="_blank">Events <i class = "header-arrow"></i></a><div class = "on-hover"></div> 
-                    <div class = "hidden-links event-links">
-                        <a href = "https://traders.expert/events/dedicated-page/" target="_blank">Event - Dedicated Page</a>
-                    </div> 
-                </div>                    
-                <a href = "https://traders.expert/others-products/" target="_blank"><p>Others Products</p><div class = "on-hover"></div></a>
-                <a href = "https://traders.expert/news/" target="_blank"><p>News</p><div class = "on-hover"></div></a>
-                <a href = "https://traders.expert/contact-us/" target="_blank"><p>Contact Us</p><div class = "on-hover"></div></a>
-            </nav>
-            <div id = "menu" class = "menu-container hidden">
-                <div class = "menu-container-header">
-                    <img src = "images/logo header.png">
-                    <p id = "hide-menu" class = "hide">&#10006;</p>
-                </div>
-                <div class = "menu-links">
-                    <a href = "https://traders.expert/" target="_blank"><p>Home</p></a>
-                    <a href = "https://traders.expert/about-us/" target="_blank"><p>About Us</p></a>
-                    <details>
-                        <summary>Broker <div><i class = "arrow"></i></div></summary>
-                        <a href = "https://traders.expert/broker-listing/" target="_blank">Broker Listing</a>
-                        <a href = "https://traders.expert/brokers-review/" target="_blank">Brokers Review</a>
-                        <a href = "https://traders.expert/brokers-review/broker-review/" target="_blank">Broker Review Directory</a>
-                    </details>
-                    <a class = "after-details" href = "https://traders.expert/education-page/" target="_blank"><p>Education</p></a>
-                    <details>
-                        <summary><a class = "details-link" href = "https://traders.expert/events/" target="_blank">Events</a><div><i class = "arrow"></i></div></summary>
-                        <a href = "https://traders.expert/events/dedicated-page/" target="_blank">Event - Dedicated Page</a>
-                    </details>
-                    <a class = "after-details" href = "https://traders.expert/others-products/" target="_blank"><p>Others Products</p></a>
-                    <a href = "https://traders.expert/news/" target="_blank"><p>News</p></a>
-                    <a href = "https://traders.expert/contact-us/" target="_blank"><p>Contact Us</p></a>
-                </div>
-            </div>
-        </div>
-        <i id = "show-menu" class="fa fa-bars menu-icon"></i>
     </header>
     <section class = "intro">
         <div class = "container">
@@ -438,17 +392,5 @@
                 scrollTop: $("#form").offset().top-200
             }, 1000); 
         });
-    </script>
-    <script>
-        let showMenu = () => {
-            document.getElementById( "menu" ).classList.remove("hidden");
-        }
-
-        let hideMenu = () => {
-            document.getElementById( "menu" ).classList.add("hidden");
-        }
-
-        document.getElementById( "show-menu" ).addEventListener( "click", showMenu );
-        document.getElementById( "hide-menu" ).addEventListener( "click", hideMenu );
     </script>
 </body>
